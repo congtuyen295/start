@@ -1,0 +1,23 @@
+.library-container {
+  .left-content {
+    h1 {
+      font-size: 30px;
+      color: #444;
+    }
+  }
+  .right-content {
+    .title-head {
+      a {
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 700;
+        position: relative;
+        display: block;
+        color: #444;
+        &:hover{
+            color: var(--green-color);
+        }
+      }
+    }
+  }
+}

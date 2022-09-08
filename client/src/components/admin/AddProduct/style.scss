@@ -1,0 +1,59 @@
+.addProd-container {
+  .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    width: 100% !important;
+  }
+  .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    color: var(--green-color) !important;
+  }
+  .css-1480iag-MuiInputBase-root-MuiInput-root:after {
+    border-bottom-color: var(--green-color);
+  }
+  .title {
+    margin: 0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.6;
+    letter-spacing: 0.0075em;
+    margin-bottom: 0.35em;
+    color: var(--blue-color);
+  }
+
+  .image-prod {
+    width: 100%;
+  }
+  #createProductFormFile {
+    display: block;
+    width: 100%;
+  }
+  .group-btn {
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    input[type="submit"] {
+      margin-right: 15px;
+      background: var(--blue-color);
+      color: var(--white2-color);
+      text-transform: uppercase;
+      border-radius: 3px;
+      font-size: 14px;
+      font-family: roboto, helveticaneue, helvetica neue, sans-serif;
+      border: 1px solid transparent;
+      display: inline-block;
+      height: 40px;
+      line-height: 39px;
+      padding: 0 20px;
+      text-align: center;
+      white-space: nowrap;
+      font-weight: 400;
+      &:hover {
+        background-color: var(--white2-color);
+        color: var(--blue-color);
+        border-color: var(--blue-color);
+      }
+    }
+    button {
+      color: var(--blue-color)
+    }
+  }
+}

@@ -1,0 +1,64 @@
+.header-card {
+  display: flex;
+  justify-content: flex-end;
+  .icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: var(--white2-color);
+    line-height: 38px;
+    text-align: center;
+    font-size: 16px;
+    float: left;
+    margin-right: 10px;
+    padding-left: 2px;
+    border: 2px solid var(--white2-color);
+    i {
+      font-size: 16px;
+    }
+  }
+  .hotline_dathang { 
+    display: flex;
+    .content_hotline {
+      line-height: 17px;
+      margin-top: 4px;
+      padding-right: 5px;
+      a {
+        color: var(--white2-color);
+        font-weight: 700;
+        display: block;
+      }
+      span {
+        color: var(--white1-color);
+        font-size: 12px;
+        b {
+          color: var(--yellow-color);
+        }
+      }
+    }
+  }
+  .cart-contain {
+    display: flex;
+    a {
+      display: block;
+      margin-top: 4px;
+      div {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 700;
+      }
+      span {
+        font-size: 12px;
+        color: #ffdada;
+        font-weight: 400;
+        display: block;
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .header-card {
+    padding: 15px 0;
+    justify-content: space-between;
+  }
+}

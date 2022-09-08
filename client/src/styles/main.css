@@ -1,0 +1,16 @@
+.header{
+    background-color: var(--green-color);
+}
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+    color: var(--green-color) !important;
+}
+.css-dpjnhs-MuiInputBase-root-MuiOutlineInput-root.Mui-focused .MuiOutlineInput-notchedOutline{
+    border-color: var(--green-color) !important;
+}
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+    color: var(--green-color);
+}
+.css-banfrq-MuiButtonBase-root-MuiButton-root{
+    color: var(--green-color) !important;
+    border-color: var(--green-color) !important;
+}

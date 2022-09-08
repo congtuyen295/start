@@ -1,0 +1,28 @@
+.form-group {
+  margin: 0;
+  padding: 0 0 8px;
+  border: 0;
+  label {
+    display: block;
+    font-weight: 400;
+    max-width: 100%;
+    margin-bottom: 5px;
+  }
+  input {
+    height: 40px;
+    padding: 0 20px;
+    color: #636363;
+    border-radius: 3px !important;
+    box-shadow: none;
+    display: block;
+    width: 100%;
+    min-height: 40px;
+    font-size: 14px;
+    font-family: roboto, helveticaneue, helvetica neue, sans-serif;
+    line-height: 1.5;
+    background-color: #fff;
+    background-image: none;
+    margin-bottom: 15px;
+    border: 1px solid #e5e5e5;
+  }
+}

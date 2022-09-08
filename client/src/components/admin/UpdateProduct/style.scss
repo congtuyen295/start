@@ -1,0 +1,49 @@
+.addProd-container {
+    .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+      width: 100% !important;
+    }
+    .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+      color: var(--green-color) !important;
+    }
+    .css-1480iag-MuiInputBase-root-MuiInput-root:after {
+      border-bottom-color: var(--green-color);
+    }
+    .title {
+      font-size: 30px;
+      color: #444;
+    }
+    .image-prod {
+      width: 100%;
+    }
+    #createProductFormFile {
+      display: block;
+      width: 100%;
+    }
+    .group-btn {
+      display: flex;
+      margin-top: 25px;
+      align-items: center;
+      input[type="submit"] {
+        margin-right: 15px;
+        background: var(--green-color);
+        color: var(--white2-color);
+        border-radius: 3px;
+        font-size: 14px;
+        font-family: roboto, helveticaneue, helvetica neue, sans-serif;
+        border: 1px solid transparent;
+        display: inline-block;
+        height: 40px;
+        line-height: 39px;
+        padding: 0 20px;
+        text-align: center;
+        white-space: nowrap;
+        font-weight: 400;
+        &:hover {
+          background-color: var(--white2-color);
+          color: var(--green-color);
+          border-color: var(--green-color);
+        }
+      }
+    }
+  }
+  
